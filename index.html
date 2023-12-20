@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign Up | Individual</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero-section">
+        <img src="./assets/logo.svg" alt="Logo" />
+        <h2>For Individuals</h2>
+        <p>
+          Inspiring wholesome harmony for the mind, body and spirit, for
+          everyone, everywhere.
+        </p>
+        <p>
+          Start benefiting from the wellness experience. For companies looking
+          on increasing productivity, and improving organization wellness.
+        </p>
+      </div>
+      <div>
+        <div class="form-container">
+          <form action="">
+            <div>
+              <div>
+                <label for="fname">First Name</label>
+                <input
+                  type="text"
+                  id="fname"
+                  name="firstName"
+                  value="Tolu" />
+              </div>
+              <div>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastName" />
+              </div>
+              <div>
+                <label for="gender">Gender</label>
+
+                <select id="gender" name="gender">
+                  <option value="" disabled selected>Select here</option>
+                  <option value="m">Male</option>
+                  <option value="f">Female</option>
+                </select>
+              </div>
+              <div>
+                <label for="dob">Date of Birth</label>
+                <input
+                  type="text"
+                  id="dob"
+                  name="dob"
+                  placeholder="Select here" />
+              </div>
+              <div>
+                <label for="weight">Weight (KG)</label>
+                <input
+                  type="text"
+                  id="weight"
+                  name="weight"
+                  placeholder="Enter Weight" />
+              </div>
+              <div>
+                <label for="height">Height (CM)</label>
+                <input
+                  type="text"
+                  id="height"
+                  name="height"
+                  placeholder="Enter height here.." />
+              </div>
+            </div>
+            <div>
+              <label for="level">Activity Level</label>
+              <select id="level" name="level">
+                <option value="" disabled selected>Select here</option>
+                <option value="1">Extremely inactive</option>
+                <option value="2">Sedentary</option>
+                <option value="3">Moderately active</option>
+                <option value="4">Vigorously active</option>
+                <option value="5">Extremely active</option>
+              </select>
+            </div>
+            <div>
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" />
+            </div>
+            <div>
+              <button role="form">Register</button>
+            </div>
+            <div class="tc-container">
+              <p>
+                By clicking Register, you agree to our
+                <a href="/">Terms of Use</a> and our
+                <a href="/">Privacy Policy</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

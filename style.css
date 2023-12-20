@@ -1,0 +1,278 @@
+@font-face {
+  font-family: brown-light;
+  font-style: normal;
+  font-weight: 300;
+  src: url('https://anima-uploads.s3.amazonaws.com/5ad4bfe29ef94d000b456ee7/Brown-Light.otf')
+    format('opentype');
+}
+
+@font-face {
+  font-family: brown-regular;
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://anima-uploads.s3.amazonaws.com/projects/6309af124df0c20ccf0bcd43/fonts/brown-regular.otf')
+    format('opentype');
+}
+
+@font-face {
+  font-family: brown-bold;
+  font-style: normal;
+  font-weight: 700;
+  src: url('https://anima-uploads.s3.amazonaws.com/5ad4bfe29ef94d000b456ee7/Brown-Bold.otf')
+    format('opentype');
+}
+
+@font-face {
+  font-family: sofia-pro-light;
+  font-style: normal;
+  font-weight: 300;
+  src: url('https://anima-uploads.s3.amazonaws.com/5c264fd1f83dc8000b2c63f3/Sofia_Pro_Light.otf')
+    format('opentype');
+}
+
+@font-face {
+  font-family: sofia-pro-regular;
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://anima-uploads.s3.amazonaws.com/5c5187824fe4f300099ea24b/Sofia Pro Regular.ttf')
+    format('truetype');
+}
+
+@font-face {
+  font-family: sofia-pro-medium;
+  font-style: normal;
+  font-weight: 500;
+  src: url('https://anima-uploads.s3.amazonaws.com/5becdbda1ec0b6000bf0ff1b/Sofia Pro Medium [TheFontsMaster.com].otf')
+    format('opentype');
+}
+
+@font-face {
+  font-family: sofia-pro-semi-bold;
+  font-style: normal;
+  font-weight: 600;
+  src: url('https://anima-uploads.s3.amazonaws.com/5c1264bfc78d8c000a7cd521/Sofia Pro SemiBold.ttf')
+    format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 375px;
+  padding: 30px 24px 138px;
+  background-color: #f7fdfc;
+  box-sizing: border-box;
+}
+
+img {
+  width: 38.67px;
+  height: 40px;
+}
+
+h2 {
+  margin: 40px 0 12px;
+  font-family: brown-bold;
+  font-size: 30px;
+  color: #000b0a;
+}
+
+form {
+  padding: 24px 16px 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-family: sofia-pro-semi-bold;
+  color: #011c34;
+}
+
+input,
+select {
+  width: 100%;
+  border: 1px solid #f0f0f0;
+  border-radius: 2px;
+  height: 48px;
+  padding-left: 16px;
+  margin-bottom: 24px;
+  box-sizing: border-box;
+}
+
+input[value='Tolu'],
+input:focus,
+select:focus {
+  border: 2px solid #2ec4b6;
+  box-shadow: 0px 0px 0px 3px #2ec4b60f;
+  outline: none;
+}
+
+button {
+  background-color: #2ec4b6;
+  border: 0;
+  border-radius: 2px;
+  box-shadow: 0 10px 40px #0000001a;
+  font-family: sofia-pro-semi-bold;
+  font-size: 16px;
+  color: #fff;
+  height: 48px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+select,
+::placeholder {
+  color: #737373;
+  font-family: sofia-pro-light;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: underline;
+  font-family: sofia-pro-medium;
+  color: #2ec4b6;
+}
+
+#fname::placeholder {
+  color: #011c34;
+  font-family: sofia-pro-regular;
+  font-size: 14px;
+}
+
+#dob {
+  background: url(./assets/calendar.svg) no-repeat right 8px center;
+}
+
+#password {
+  background: url(./assets/eye.svg) no-repeat right 8px center;
+}
+
+.container {
+  min-width: 327px;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.form-container {
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 4px 50px #0408131a;
+  border-radius: 6px;
+}
+
+.hero-section {
+  margin-bottom: 40px;
+}
+
+.hero-section > p {
+  color: #737373;
+  font-family: brown-light;
+}
+
+.hero-section > p:last-of-type {
+  display: none;
+}
+
+.tc-container {
+  position: absolute;
+  text-align: center;
+  font-family: sofia-pro-regular;
+  font-size: 14px;
+  width: 100%;
+  transform: translate(-50%, 0);
+  left: 50%;
+  bottom: -62px;
+}
+
+.tc-container > p {
+  padding: 0 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 480px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    height: 100vh;
+  }
+
+  h2 {
+    margin: 50px 0 20px;
+    font-size: 40px;
+  }
+
+  img {
+    width: 77.33px;
+    height: 80px;
+  }
+
+  form {
+    padding: 40px;
+  }
+
+  form > div:first-child {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 24px;
+  }
+
+  input,
+  select {
+    margin-bottom: 30px;
+  }
+
+  button {
+    margin-bottom: 16px;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  .container {
+    display: flex;
+    min-width: 85%;
+    align-items: center;
+    justify-content: center;
+    column-gap: 120px;
+  }
+
+  .hero-section {
+    flex: 1.4;
+  }
+
+  .hero-section + div {
+    flex: 2;
+  }
+
+  .hero-section > p:first-of-type {
+    display: none;
+  }
+
+  .hero-section > p:last-of-type {
+    display: block;
+  }
+
+  .form-container + div {
+    background: red;
+    max-width: 463px;
+    width: 80%;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 0px;
+  }
+
+  .tc-container {
+    position: relative;
+    bottom: 0;
+  }
+}
