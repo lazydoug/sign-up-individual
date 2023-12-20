@@ -20,7 +20,8 @@ I designed and coded a responsive sign-up page using HTML and CSS. The project f
 
 ## Preview
 
-[Include screenshots or provide a link to a live demo if available.]
+- **`Design File`:** https://www.figma.com/file/bkXqRQ54IVDn0LQqjfrDW0/Web-Development-Training-(Copy)?type=design&node-id=0%3A1&mode=design&t=PH3Fyy5uZB3o9xZQ-1
+- **`Live Site`:** https://lazydoug.github.io/sign-up-individual/
 
 ## Getting Started
 
