@@ -1,6 +1,6 @@
-# Responsive Sign-Up Page Project
+# Responsive Sign-Up Page Assignment
 
-This repository displays my implementation of a responsive sign-up page, developed as part of a web development assignment. The primary goal was to showcase proficiency in front-end development, with a specific emphasis on crafting an intuitive and aesthetically pleasing sign-up experience.
+This repository displays my implementation of a responsive sign-up page, developed as part of my ALTSchool first semester assignment. The primary goal was to showcase proficiency in front-end development, with a specific emphasis on crafting an intuitive and aesthetically pleasing sign-up experience.
 
 ## Project Overview
 
