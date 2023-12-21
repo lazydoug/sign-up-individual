@@ -80,7 +80,7 @@
             </div>
             <div>
               <label for="level">Activity Level</label>
-              <select id="level" name="level">
+              <select id="level" name="level" required>
                 <option value="" disabled selected>Select here</option>
                 <option value="1">Extremely inactive</option>
                 <option value="2">Sedentary</option>
@@ -91,7 +91,13 @@
             </div>
             <div>
               <label for="password">Password</label>
-              <input type="password" id="password" name="password" />
+              <input
+                type="password"
+                id="password"
+                name="password"
+                title="It must be at least 8 characters long, and must contain at least one  digit, one uppercase letter and one lowercase letter."
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                required />
             </div>
             <div>
               <button role="form">Register</button>
